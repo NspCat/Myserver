@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{0a774ef0-a27a-41a9-a414-a5553ddcb11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{1750e8d1-3589-4e7b-9e86-5ec14c6493ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="前端文件">
+      <UniqueIdentifier>{c0c0c394-fca4-49d0-a797-228d5e59f729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{88f9f97d-1bab-461e-8bc3-18078d972c88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="webserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CGImysql\sql_connection_pool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="http\http_conn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lock\locker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\block_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="log\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool\threadpool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer\heaptimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="webserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CGImysql\sql_connection_pool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timer\heaptimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="http\http_conn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="log\log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="bin\x64\Debug\root\css\.DS_Store">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\animate.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\bootstrap.min.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\css.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\font-awesome.min.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\magnific-popup.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\style.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\css\wstyle.css">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\.DS_Store">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\bootstrap.min.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\custom.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\jquery.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\jquery.magnific-popup.min.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\jquery.min.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\magnific-popup-options.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\script.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\smoothscroll.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\js\wow.min.js">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\images\.DS_Store">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\.DS_Store">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.eot">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.eot-">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.eot-v=4.6.3">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.svg">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.ttf-v=4.6.3">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.woff">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\fonts\fontawesome-webfont.woff2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\400.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\403.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\404.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\405.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\About.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\error.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\index.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\Log_Error.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\phpinfo.php">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\picture.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\Register_Error.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\Register_Success.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\test.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\video.html">
+      <Filter>前端文件</Filter>
+    </None>
+    <None Include="bin\x64\Debug\root\welcome.html">
+      <Filter>前端文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\x64\Debug\root\favicon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\banner.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img01.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img02.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img03.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img04.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img05.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img06.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\img07.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\imgProfile-image.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\right.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\test.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\waldemar.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="bin\x64\Debug\root\images\wallhaven-e7ek7k.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="bin\x64\Debug\root\fonts\FontAwesome.otf">
+      <Filter>资源文件</Filter>
+    </Font>
+    <Font Include="bin\x64\Debug\root\fonts\fontawesome-webfont.ttf">
+      <Filter>资源文件</Filter>
+    </Font>
+  </ItemGroup>
+</Project>

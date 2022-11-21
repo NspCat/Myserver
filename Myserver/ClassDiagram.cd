@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="connection_pool" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AICAAAAEEECAACIAAAiAAAAABAEABQIgAAQBABAAAAA=</HashCode>
+      <FileName>CGImysql\sql_connection_pool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="connectionRAII" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>CGImysql\sql_connection_pool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Config" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAAECgQAAgAAQAAAACAAAAAAQAAAAgAAgAAAAQA=</HashCode>
+      <FileName>config.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="http_conn">
+    <Position X="6" Y="1.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="http_conn::METHOD">
+        <TypeIdentifier>
+          <NewMemberFileName>http\http_conn.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="http_conn::CHECK_STATE">
+        <TypeIdentifier>
+          <NewMemberFileName>http\http_conn.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="http_conn::HTTP_CODE">
+        <TypeIdentifier>
+          <NewMemberFileName>http\http_conn.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="http_conn::LINE_STATUS">
+        <TypeIdentifier>
+          <NewMemberFileName>http\http_conn.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>DhAoIgpwSBABAKeQAIggFMIQgIklB0KABQCSQAAAARI=</HashCode>
+      <FileName>http\http_conn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sem" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAABAAAAAAAAQAAAAAAAAAAAgEAAAAAAAAAAA=</HashCode>
+      <FileName>lock\locker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="locker" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAEAAAIAAAAAAAQAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>lock\locker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cond" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAIAEAAAAAAAAAAAIAEAAAAAAGAAAAAAAAAAA=</HashCode>
+      <FileName>lock\locker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="block_queue&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAEAIBAAAAAAAIAAAIACAAACRAAAQAAIAAIKAAI=</HashCode>
+      <FileName>log\block_queue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIQAAAAAAAQAAMAIAAAAIAAQAhAAIIAAAhABAQIAAA=</HashCode>
+      <FileName>log\log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="threadpool&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAQAABIAAAAAACIQAIAAAAAAAEAIAgCAoA=</HashCode>
+      <FileName>threadpool\threadpool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="util_timer" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAQEAAAAEAAAABAAAIAAAA=</HashCode>
+      <FileName>timer\lst_timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="
+         " Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAABAgAAAAAAAAAAAAAAAAABAAAAAAAIABAAAAgE=</HashCode>
+      <FileName>timer\lst_timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utils" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAQAIAIBAAAACIIBIAAAAAAAAAAAIAAAAAQEAAAAA=</HashCode>
+      <FileName>timer\lst_timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WebServer" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>YIaAEABgAAQIAAJAAAAYACAchAEAABIABAQRMABYACA=</HashCode>
+      <FileName>webserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="client_data" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>timer\lst_timer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
